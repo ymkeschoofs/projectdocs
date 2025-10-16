@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Special+Gothic:wght@400..700&display=swap');
+body{
+    background-color: rgba(205, 216, 255, 0.778);
+    color: #161717;
+    height:auto;
+    min-height:100vh;
+}
+/* Container styling */
+.container {
+    font-family: "Special Gothic", sans-serif;
+    max-width: 65vw;
+    margin-left: 50vw;
+    margin-right: auto;
+}
+
+.title {
+    font-family: "Special Gothic", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 2em;
+}
+
+
