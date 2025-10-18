@@ -1,27 +1,76 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Special+Gothic:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 body{
-    background-color: rgba(205, 216, 255, 0.778);
+    font-family: "Special Gothic", sans-serif;
+    
+    background-color: rgb(247, 249, 255);
     color: #161717;
     height:auto;
     min-height:100vh;
+    margin: 3.5rem 2rem 5rem 2rem;
+    
+    /*https://www.magicpattern.design/tools/css-backgrounds*/
+    background-image: radial-gradient(#3625ef41 1.1px, #e5e5f700 1.1px);
+    background-size: 45px 45px;
 }
+
 /* Container styling */
 .container {
-    font-family: "Special Gothic", sans-serif;
-    max-width: 65vw;
-    margin-left: 50vw;
+    max-width: 80vw;
+    margin-left: 2rem;
     margin-right: auto;
+    margin-bottom: 5rem;
 }
 
 .title {
-    font-family: "Special Gothic", sans-serif;
-    font-size: 1em;
-    font-weight: bold;
-    text-transform: capitalize;
-    margin-top: 2em;
+    font-family: "DM Serif Text", serif;
+    font-size: 4.5rem;
+    font-weight: 600;
+    margin-top: 0;
+    
+    color: 3525EF;
 }
 
+.subtitle{
+    font-family: "Inter", sans-serif;
+    font-size: .8rem;
+    font-weight: 300;
+    margin-bottom: -.8rem;
+}
 
+.list-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+    margin-top: 5rem;
+
+}
+.list-cards a {
+    display: flex;
+}
+
+.card{
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: rgba(5, 0, 26, 0.568) .1rem .1rem .5rem;
+    padding: 1rem 2rem 1rem 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.inleiding{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+    font-style: italic;
+    color: #3625efc8;
+
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: rgba(5, 0, 26, 0.568) .1rem .1rem .5rem;
+    padding: 1rem 2rem 1rem 2rem;
+}

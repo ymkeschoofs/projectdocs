@@ -1,12 +1,41 @@
 p{
-    margin-top: .5em;
+    font-family: "Inter", sans-serif;
+    font-size: .8rem;
+    line-height: 1.2rem;
+
 }
-h1{ 
-    font-size: 3em;
-    font-weight: extrabold;
+h1, h2{ 
+    font-family: "DM Serif Text", serif;
+    font-size: 4.5rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: -2rem;
+    color: 3525EF;
 }
 h2{ 
-    font-size: 1.5em;
-    font-weight: bold;
-    opacity: .5; 
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+h3{
+    font-family: "Inter", sans-serif;
+    font-size: .8rem;
+    font-weight: 300;
+    margin-bottom: -.8rem;
+}
+
+.left-spacing{
+    margin-left: 3vw;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:visited{
+    color: inherit;
+}
+
+.tussentitel{
+    margin-top: 1.5rem;
 }
