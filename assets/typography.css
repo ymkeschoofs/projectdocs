@@ -25,7 +25,7 @@ h3{
 }
 
 .left-spacing{
-    margin-left: 3vw;
+    margin-left: 2vw;
 }
 
 a{
@@ -38,4 +38,11 @@ a:visited{
 
 .tussentitel{
     margin-top: 1.5rem;
+}
+
+
+@media (min-width: 1024px) {
+    .left-spacing{
+        margin-left: 1vw;
+    }
 }

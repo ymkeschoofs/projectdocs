@@ -30,11 +30,11 @@
 .nav-bar{
     position:fixed;
     z-index: 20;
-    right: 2vw;
+    right: 5.5vw;
     top: 0;
     bottom: 75%;
     margin: auto;
-    width: 15%;
+    width: 5rem;
     height: 75px;
 
     background-color: rgb(255, 255, 255);
@@ -61,18 +61,19 @@ i{
     transition: all 0.2s ease;
 }
 
-.iconBG:nth-child(2){
-    margin-top: auto;
-}
-
 .iconBG-hidden{
     display: none;
 }
-
-
 .iconBG:hover{
     background-color: 3525EF;
 }
 .iconBG:hover i{
     color: white;
+}
+
+
+@media (min-width: 1024px) {
+    .nav-bar{
+
+    }
 }

@@ -63,9 +63,8 @@ body{
 }
 
 .inleiding{
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-
+    margin: 3rem auto 2rem 0;
+    max-width: 80vw;
     font-style: italic;
     color: #3625efc8;
 
@@ -73,4 +72,19 @@ body{
     border-radius: 25px;
     box-shadow: rgba(5, 0, 26, 0.568) .1rem .1rem .5rem;
     padding: 1rem 2rem 1rem 2rem;
+}
+
+@media (min-width: 1024px) {
+    .list-cards{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .inleiding{
+        margin-left: 0;
+        max-width: 50vw;
+    }
+
+    .container{
+        max-width: 50vw;
+    }
 }
