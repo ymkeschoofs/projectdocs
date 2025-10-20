@@ -71,3 +71,8 @@ i{
     color: white;
 }
 
+@media (min-width: 768px) {
+    .nav-bar{
+        right: 8vw;
+    }
+}

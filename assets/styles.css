@@ -78,6 +78,9 @@ body{
     .list-cards{
         max-width: 60vw;
     }
+    body{
+        margin-left: 8vw;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -94,4 +97,5 @@ body{
     .container{
         max-width: 50vw;
     }
+
 }
