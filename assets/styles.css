@@ -18,7 +18,7 @@ body{
 
 /* Container styling */
 .container{
-    max-width: 80vw;
+    max-width: 75vw;
     margin-left: 2rem;
     margin-right: auto;
     margin-bottom: 5rem;
@@ -94,6 +94,9 @@ body{
     box-shadow: rgba(5, 0, 26, 0.568) .1rem .1rem .5rem;
     object-fit: contain;
     float: left; 
+}
+.container > p, .container > h2{
+    clear: both;
 }
 
 @media (min-width: 768px) {
